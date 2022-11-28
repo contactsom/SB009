@@ -1,0 +1,17 @@
+can we create multiple python file in a single folder?
+
+int a = 10
+# a is the int type varible assigned by integer value 10;
+
+float todayTemp=20.0
+
+str myName="Jon"
+
+
+
+
+[] - list
+{:} - Dictionary
+() - Tuple
+{} - Set
+

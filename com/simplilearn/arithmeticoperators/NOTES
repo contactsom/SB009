@@ -1,0 +1,5 @@
+
+CASE 1 : M & N -> + infinity
+CASE 2 : M OR N -> - infinity
+CASE 3 : M OR N -> - infinity and r!=0
+CASE 4 : M & N -> - infinity

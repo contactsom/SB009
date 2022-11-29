@@ -1,0 +1,29 @@
+1. int myAge = 30 - not valid
+
+2. MyAge = 30 - Valid - But not recommended
+
+3. 1class="LKG" - Not Valid
+
+4. _1class="LKG" - Valid
+
+5. _1_class="LKG" - Valid
+
+6. _1 class="LKG" - not valid
+
+7. _CLASSNAME="LKG" -Valid - But not recommended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Option 1 : You pick all the green ball in keep in Box 2
+Option 2 : You pick all the pink ball in keep in Box 2 - YES

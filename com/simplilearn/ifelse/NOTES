@@ -1,0 +1,7 @@
+
+Grade System
+    Marks       Grade
+    >90%        A
+   <90 or > 80  B
+   <80 > 40     C
+   <40          D

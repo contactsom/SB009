@@ -1,0 +1,9 @@
+WARNING:root:I am Warning Message 1
+WARNING:root:I am Warning Message 2
+WARNING:root:I am Warning Message 3
+ERROR:root:I am Error Message 1
+ERROR:root:I am Error Message 2
+ERROR:root:I am Error Message 3
+CRITICAL:root:I am Critical Message 1
+CRITICAL:root:I am Critical Message 2
+CRITICAL:root:I am Critical Message 3

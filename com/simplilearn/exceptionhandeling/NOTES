@@ -1,0 +1,80 @@
+You have requirement to read the data from File
+    -> FIle Not Exist in to location
+
+You have requirement to read the data from DB
+    -> DB Not Exist / it is down
+
+You reached office without ID card
+    -> Security will stop you at  entry gate
+
+
+   Error:
+    1. Syntex Error or Compile Time Error
+    2. Runtime Error
+
+Exception :
+
+
+logical error causes runtime error
+
+
+
+
+
+# Quiz : 6
+try:
+    print("try")
+
+# Quiz : 7
+except:
+    print("except")
+
+# Quiz : 8
+else:
+    print("else")
+
+# Quiz : 9
+finally:
+    print("finally")
+
+# Quiz : 9
+try:
+    print("try")
+finally:
+    print("finally")
+
+# Quiz : 10
+try:
+    print("try")
+except:
+    print("except")
+
+# Quiz : 11
+try:
+    print("try")
+except:
+    print("except")
+else:
+    print("else")
+
+# Quiz : 12
+try:
+    print("try")
+else:
+    print("else")
+
+# Quiz : 13
+try:
+    print("try")
+else:
+    print("else")
+finally:
+    print("finally")
+
+# Quiz : 14
+try:
+    print("try")
+except XXX:
+    print("except-1")
+except YYY:
+    print("except-2")

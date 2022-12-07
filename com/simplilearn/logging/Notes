@@ -1,0 +1,12 @@
+LOGGING LEVEL :
+
+1. CRITICAL : 50
+2. ERROR : 40
+3. WARNING : 30
+4. INFO : 20 ------->
+5. DEBUG : 10
+6. NOTSET : 0
+
+
+BREAK:
+ 11: 30 AM IST

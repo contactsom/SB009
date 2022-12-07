@@ -1,0 +1,23 @@
+
+INFO:root:START: Division Program
+INFO:root:8
+INFO:root:2
+INFO:root:END: Division Program
+INFO:root:START: Division Program
+INFO:root:9
+INFO:root:0
+ERROR:root:Can not be devided by ZERO
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "/Users/om/SB009/com/simplilearn/logging/LoggingExample2.py", line 11, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero
+INFO:root:END: Division Program
+INFO:root:START: Division Program
+ERROR:root:User not provided  Int Value 
+ERROR:root:invalid literal for int() with base 10: 'm'
+Traceback (most recent call last):
+  File "/Users/om/SB009/com/simplilearn/logging/LoggingExample2.py", line 7, in <module>
+    x = int(input("Enter First Number : "))
+ValueError: invalid literal for int() with base 10: 'm'
+INFO:root:END: Division Program

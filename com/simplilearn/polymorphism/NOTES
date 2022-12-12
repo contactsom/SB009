@@ -1,0 +1,35 @@
+
+Poly - many
+
+morphism (Morphs) - Form
+
+
+
+
+1. Overloading
+    1. Operator Overloading
+    2. Method Overloading
+    3. Constructor Overloading
+2. Overriding
+     1. Method Overloading
+     2. Constructor Overload
+
+
+2. Method Overloading
+*********************
+Two Method are said to be a overloaded method IFF--
+    1. Method name should be same
+    2. Method argument must  be different
+
+
+
+
+
+
+
+
+
+
+
+
+

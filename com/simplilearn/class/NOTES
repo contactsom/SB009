@@ -1,0 +1,41 @@
+Self Variable :
+    Self  is the derfault variable which always point to current object
+    By using self we can access the instance variables and instance method of object
+
+NOTE :
+    1. self should be the first parameter inside the constructor
+    	def __init__(self):
+    2. self should be the first parameter inside the instance method
+        def say_hi(self):
+
+Constructor Concept :
+---------------------
+1. Constructor is a special method in python
+2. the name of the Constructor should be  __init__(self):
+3. Constructor should be executed automatically at the time of object creation. *
+4. the main purpose of the Constructor is to declare and initilalized the variable .
+    Ex:
+        def __init__(self, name , id, age):
+            self.name = name
+            self.id = id
+            self.age = age
+        ----------------------------
+        def __init__(self):
+            self.name="Aditya"
+            self.age=25
+            self.marks=80
+
+5. For each object there will be a unique Constructor call. *
+
+6. Constructor can take the at least one argument i.e self
+
+7. Constructor is optional , if developer not providing then python generate automatically .
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+
+1. r -> open an existing file 2 read operation. The file pointer is positioned at the
+beginning of the file.If the specified file does not exist then we will get
+FileNotFoundError.This is default mode.
+
+2. w -> open an existing file for write operation. If the file already contains some data
+then it will be overridden. If the specified file is not already avaialble then this mode will
+create that file.
+
+3. a -> open an existing file for append operation. It won't override existing data.If the
+specified file is not already avaialble then this mode will create a new file.
+
+4. r+ -> To read and write data into the file. The previous data in the file will not be
+deleted.The file pointer is placed at the beginning of the file.
+
+5. w+ -> To write and read data. It will override existing data.
+
+6. a+ -> To append and read data from the file.It wont override existing data.
+
+7. x -> To open a file in exclusive creation mode for write operation. If the file already
+exists then we will get FileExistsError.
+
+Note: All the above modes are applicable for text files. If the above modes suffixed with
+      'b' then these represents for binary files.
+      Eg: rb,wb,ab,r+b,w+b,a+b,xb

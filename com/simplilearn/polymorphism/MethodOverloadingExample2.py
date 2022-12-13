@@ -1,3 +1,4 @@
+# Way 1
 class MethodOverloadingExample2:
 
 

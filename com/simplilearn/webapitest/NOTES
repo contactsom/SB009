@@ -1,0 +1,18 @@
+REST Web Services :
+    GET - Retrive the information
+    PUT - Update the information
+    POST - Add the information
+    DELETE - delete the information
+
+PRESENTATION LAYER :
+    HTML/CSS/JS/ Any JS Framework
+
+CONTROLLER LAYER :
+
+    Flask
+    Django
+    Spring
+PERSISTANCE LAYER
+    JDBC
+    HIBERNATE
+

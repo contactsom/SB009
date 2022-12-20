@@ -1,0 +1,146 @@
+        1.Python Decorator,
+2.Password manager ,
+        3. Patient management application,
+  4. create and advanced calender app. ,
+  5 Health tracker
+
+
+
+************************************
+3. Patient Management Application
+************************************
+
+Many patients visit AB Hospital for a routine health checkup, accidental injuries or any other ailment treatment.
+Each patient has to register with the hospital if they are visiting the hospital for the first time.
+So, it gets very difficult for the reception boy Suresh to manage the records of every patient in a
+logbook manually as if the user has already registered he has to search the patient’s name throughout the book containing thousands of records.
+Objective: To develop an application in Django that checks if the patient is already registered and registers the patient if they’re not.
+Domain:  Customer Support
+Steps to perform:
+Tasks -
+Set up the required tools
+
+Tools/Packages
+Django 1.8
+Python 2.7
+SQLite
+The packages are pre-installed in the environment. In case if you want to install any other package then use either apt/pip.
+OS Version
+Ubuntu 16.04 LTS
+1 G
+
+********************************
+1. python decorators
+********************************
+
+Implement a Python decorator that should take whatever the decorated function returns, and write it to a file in a new line.
+For the sake of this problem, let us assume that the decorated functions always return a string.
+The decorator should be named log_message and should write to the file /tmp/decorator_logs.txt.
+Objective: To develop a Python decorator
+Domain:  Web Development
+teps to perform:
+    Implement the following design
+@log_message
+def a_function_that_returns_a_string():
+      return "A string"
+@log_message
+def a_function_that_returns_a_string_with_newline(s):
+      return "{}\n".format(s)
+@log_message
+def a_function_that_returns_another_string(string=""):
+            return "Another string"
+
+
+********************************
+5.Health Tracker
+********************************
+Course-end Project 5
+DESCRIPTION
+Lyka, the sporting shoe company, approaches you to create a simple python app that helps in tracking workouts,
+energy (or calories) burnt, BMI, weekly rewards, monthly rewards, fastest week, slowest month, etc. Some of the features are shown below.
+
+The application will accept the following initial inputs from any user:
+Name, Age, Sex, Weight, Height
+
+You should be able to use either the FPS or Metric system with regards to weight and height.
+
+The app should accept the next set of inputs, which are:
+    Day
+    Number of steps
+    Time taken (hours:minutes: seconds)
+
+You can provide a number of inputs based on the following: Assumptions: Day = 1 for Monday, Day = 2 for Tuesday,
+
+ample Input and Output 
+A typical 1-week sample input of 7 days will have the following input: 
+1, 7500, 1:02:05 
+2, 8500, 1:06:12 
+3, 3500, 0:52:25 
+4, 4250, 0:59:35 
+5, 7800, 1:01:55 
+6, 8500, 1:12:15 
+7, 9500, 1:15:25 
+ 
+The sample output for this data should be: 
+Weekly Average: 4.64 Km/hr (or 2.95 mi/hr) 
+ 
+A typical 1-month sample input of 5 days will have the following input: 
+1, 7500, 1:02:05
+2, 8500, 1:06:12 
+3, 3500, 0:52:25 
+4, 4250, 0:59:35 
+5, 7800, 1:01:55 
+6, 8500, 1:12:15 
+7, 9500, 1:15:25
+1, 7500, 1:02:05 
+2, 8500, 1:06:12 
+3, 3500, 0:52:25 
+4, 4250, 0:59:35 
+5, 7800, 1:01:55 
+6, 8500, 1:12:15 
+7, 9500, 1:15:25 
+1, 7500, 1:02:05 
+2, 8500, 1:06:12 
+3, 3500, 0:52:25 
+4, 4250, 0:59:35 
+5, 7800, 1:01:55 
+6, 8500, 1:12:15 
+7, 9500, 1:15:25 
+1, 7500, 1:02:05 
+2, 8500, 1:06:12 
+3, 3500, 0:52:25 
+4, 4250, 0:59:35 
+5, 7800, 1:01:55 
+6, 8500, 1:12:15 
+7, 9
+
+
+
+Jara is developing a new version of password manager. Earlier,
+she was using some third-party password manager but she figured out that it can't keep track of
+all the passwords which has been set for the respective account. As she is very concerned about the security,
+she decided to develop her own version of the password manager
+Objective: To develop a custom password manager using Python
+Domain:  Security
+Steps to perform:
+Implement the following design
+class BasePasswordManager
+    members
+        old_passwords: is a list that holds all of the user's past
+                           passwords.
+                           The last item of the list is the user's current password.
+    methods
+        get_password method that returns the current password as a string.
+
+        is_correct method that receives a string and returns a boolean
+             True or False depending on whether the string is equal to
+             the current p
+             \
+Sample Input and Output
+A typical 1-week sample input of 7 days will have the following input:
+1, 7500, 1:02:05
+2, 8500, 1:06:12
+3, 3500, 0:52:25
+4, 4250, 0:59:35
+5, 7800, 1:01:55
+6, 850

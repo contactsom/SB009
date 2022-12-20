@@ -1,0 +1,95 @@
+Python Decorators
+1. create the file "/decorator_logs.txt."
+    Refer : https://github.com/contactsom/SB009/tree/master/com/simplilearn/logging
+
+2. Create the Three Function :
+    def a_function_that_returns_a_string():
+        	return "A string"
+        	write in to file decorator_logs.txt.
+
+    def a_function_that_returns_a_string_with_newline(s):
+            return "{}\n".format(s)
+            refer - com/simplilearn/string/StringExample5.py
+            write in to file decorator_logs.txt.
+
+    def a_function_that_returns_another_string(string=""):
+            return "Another string"
+            write in to file decorator_logs.txt.
+
+
+Password Manager
+*****************
+
+class BasePasswordManager
+
+         is a list that holds all of the user's past passwords.
+         The last item of the list is the user's current password.
+
+        old_passwords =['oldpass1','oldpass2','oldpass3','oldpass4','currentpas']
+
+     method that returns the current password as a string
+     def get_password(old_passwords):
+        return lastElement of old_passwords;
+
+     def is_correct(userinputpass):
+        ismatched=false
+            currentpassword=get_password();
+
+            if(userinputpass.equals(currentpassword))
+                return ismatched = true
+
+        return ismatched
+
+class PasswordManager  inherits from BasePasswordManager
+
+        def set_password():
+             //Length of new password is minimum 6
+             //Security level of the new password is greater than  level 2.
+             Ex : Alphanumeric passwords with special characters.
+             abc<1234) level_2
+             return dictionary<k,v> = <abc<1234),level_2>
+
+        //method that returns the security level of the current password.
+        def  get_level():
+                dictionary=set_password()
+                // get the value
+                return the value
+
+
+
+
+
+        REF :
+                level 0 - password consists of alphabets or numbers only.
+    	        level 1 - Alphanumeric passwords.
+                level 2 - Alphanumeric passwords with special characters.
+
+**************************************************************************************************
+                                              Q & A
+**************************************************************************************************
+declare the global withiun a class
+    myvar=""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+# pip3 install pyinstaller
+# or python install pyinstaller
+# pyinstaller --onefile DiceApp.py

@@ -1,0 +1,5 @@
+pip3 install gtts
+OR
+pip install gTTS
+OR
+python install gtts

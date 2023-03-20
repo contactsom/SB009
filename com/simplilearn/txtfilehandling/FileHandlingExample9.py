@@ -11,6 +11,11 @@ with open("employee.txt",'w') as f:
     print("Is File is Closed :", f.closed)
 print("Is File is Closed :", f.closed)
 
+print("**************************************")
+with open("employee.txt",'r') as f:
+    print( f.read())
+    print("Is File is Closed :", f.closed)
+print("Is File is Closed :", f.closed)
 
 
 print("****** END- FILE HANDLING *********")

@@ -1,0 +1,5 @@
+Command	Function
+help	To display all commands
+where	Display the stack trace and line number of the current line
+next	Execute the current line and move to the next line ignoring function calls
+step	Step into functions called at the current line
